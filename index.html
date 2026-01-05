@@ -2,65 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Portfolio</title>
+  <title>Vanja | Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      line-height: 1.6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 720px;
+      margin: 60px auto;
+      line-height: 1.7;
       padding: 0 20px;
       color: #222;
+      background: #fafafa;
     }
-    h1, h2 {
-      border-bottom: 1px solid #ddd;
+
+    h1 {
+      margin-bottom: 0.2em;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #e0e0e0;
       padding-bottom: 4px;
     }
+
+    p {
+      margin: 0.8em 0;
+    }
+
     a {
       color: #0366d6;
       text-decoration: none;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     ul {
       padding-left: 20px;
     }
+
     .project {
-      margin-bottom: 12px;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      border: 1px solid #e6e6e6;
+    }
+
+    .project strong {
+      display: block;
+      margin-bottom: 0.3em;
     }
   </style>
 </head>
 <body>
 
-<h1>Hi, I'm Vanja</h1>
+<h1>Hi, I’m Vanja</h1>
 
 <p>
-Computer Science student interested in low-level programming,
-game logic, and building small projects outside of university coursework.
+I’m a Computer Science student at TU Graz with a strong interest in
+low-level programming, game logic, and understanding how things work
+under the hood.
+</p>
+
+<p>
+This page and my GitHub serve as a learning space where I build small
+projects to solidify concepts from university courses and experiment
+independently. The focus is on fundamentals, clarity, and learning
+through implementation :)
 </p>
 
 <h2>Projects</h2>
 
 <div class="project">
-  <strong>Snake Game (C, ncurses)</strong><br>
+  <strong>Snake Game (C, ncurses)</strong>
   Terminal-based Snake game with real-time input handling and score tracking.
-  Focused on game loops, input processing, and memory-safe C code.
+  Built to practice game loops, non-blocking input, and memory-safe C code.
 </div>
 
 <div class="project">
-  <strong>Tic Tac Toe (C++, SFML)</strong><br>
-  GUI-based Tic Tac Toe game using SFML.
-  Implemented event handling, game state management, and basic rendering.
+  <strong>Tic Tac Toe (C++, SFML)</strong>
+  Simple GUI-based Tic Tac Toe game using SFML.
+  Focused on event handling, game state management, and basic rendering.
 </div>
 
 <div class="project">
-  <strong>Wordle Clone</strong><br>
-  Wordle-style word guessing game focused on logic, validation,
-  and feedback mechanics.
+  <strong>Wordle Clone (C)</strong>
+  Terminal-based Wordle-style game built to practice dynamic memory
+  allocation, string handling, and feedback logic.
 </div>
 
 <h2>Skills</h2>
 <ul>
-  <li><strong>Languages:</strong> C, C++, HTML/CSS (basic)</li>
-  <li><strong>Programming concepts:</strong> game logic, state management, input handling, debugging</li>
+  <li><strong>Languages:</strong> C, C++, HTML/CSS (basic), Java </li>
+  <li><strong>Concepts:</strong> game logic, state management, input handling, debugging</li>
   <li><strong>Tools:</strong> Git, GitHub, Linux/terminal, SFML (basic), ncurses</li>
 </ul>
 
